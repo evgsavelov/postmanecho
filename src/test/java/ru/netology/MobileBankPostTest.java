@@ -16,7 +16,7 @@ public class MobileBankPostTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some file"));
+                .body("data", equalTo("some data"));
 
     }
 }
